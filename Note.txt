@@ -10,4 +10,5 @@ Please read this before reviewing the code:
 - To me this looks like a helper/utility class and I do not see any benefit of implementing it using an Interface. I could have done it but why over architect your solution
 - 0 is a valid input
 - A little bit of Spring would have made the solution a bit fancier but then I personally do not like to over-engineer the solution.
+- There are total of 11 test methods and internally they contain many more assertions.
 
