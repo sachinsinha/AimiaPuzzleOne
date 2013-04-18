@@ -1,0 +1,13 @@
+Please read this before reviewing the code:
+- there are no 'and' in the output. Nonetheless looks like having and is not the right way - this is how google returns
+- there is a hyphen for tens. For eg 21 will have an output of twenty-one (this change is done after checking in the dictionary)  - this is how google returns
+- decimal places are not taken into account as they can be spelled out differently based on their scope (currency vs. scientific values)
+- The solution is string based so can be easily extended
+- Can accept 999999 or 999,999 or 999, 999 for nine hundred ninety-nine thousand nine hundred ninety-nine
+- anything other than numbers, comma or spaces will result in error
+- outputs only in lower case though can be easily extended
+- InteliJ has been used for development but the code is IDE agnostic provided the IDE being used to review the code supports maven.
+- To me this looks like a helper/utility class and I do not see any benefit of implementing it using an Interface. I could have done it but why over architect your solution
+- 0 is a valid input
+- A little bit of Spring would have made the solution a bit fancier but then I personally do not like to over-engineer the solution.
+
